@@ -2,7 +2,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './components/layouts/Home';
-import Header from './components/Header';
 import "./assets/css/style.css";
 
 function App() {
