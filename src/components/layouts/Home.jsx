@@ -17,7 +17,7 @@ function Home(){
         
         <section className="banner">
             <div className="banner-content">
-                <h1>Welcome to TechWave</h1>
+                <h1>Welcome to TechWave Solutions</h1>
                 <p>At TechWave Solutions, we deliver cutting-edge technology solutions to elevate your business operations. From web development to cybersecurity, our expert team is dedicated to driving your success through innovation and excellence.</p>
                 <button className="banner-btn"><span>Start Exploring</span> <FontAwesomeIcon icon={faRightToBracket} /> </button>
             </div>
