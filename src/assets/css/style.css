@@ -299,3 +299,47 @@ body{
 .footer-bg .links ul li a:hover{
     color: #D90CB4;
 }
+.pagebg{
+    background: linear-gradient(90deg, #D90CB4, #7501C1);
+    padding: 130px 0;
+}
+.pagebg h2{
+    color: white;
+}
+.margin{
+    margin: 100px 0;
+}
+.journey{
+    margin-right: 15px;
+}
+.values{
+    margin-left: 15px;
+}
+.journey h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #7501C1;
+    padding-bottom: 8px;
+}
+.values h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #7501C1;
+    padding-bottom: 8px;
+}
+.journey p{
+    font-size: 17px;
+    line-height: 28px;
+    text-align: justify;
+}
+.values p{
+    font-size: 17px;
+    line-height: 28px;
+    text-align: justify;
+}
+.values ul{
+    line-height: 28px;
+}
+.absec{
+    margin-bottom: 100px;
+}
