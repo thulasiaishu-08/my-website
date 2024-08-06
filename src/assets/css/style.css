@@ -299,12 +299,10 @@ body{
 .footer-bg .links ul li a:hover{
     color: #D90CB4;
 }
-.pagebg{
-    background: linear-gradient(90deg, #D90CB4, #7501C1);
-    padding: 130px 0;
-}
 .pagebg h2{
     color: white;
+    position: relative;
+    z-index: 20;
 }
 .margin{
     margin: 100px 0;
@@ -342,4 +340,28 @@ body{
 }
 .absec{
     margin-bottom: 100px;
+}
+
+.pagebg{
+    background-image: url('../img/aboutpg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: -100px 0 0 0;
+    padding: 200px 0 200px 0;
+    position: relative;
+}
+.pagebg::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+.gap{
+    margin: 0;
 }

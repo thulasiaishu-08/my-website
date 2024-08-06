@@ -108,7 +108,7 @@ function About(){
             </Container>
         </section>
 
-        <section className="call-action">
+        <section className="call-action gap">
             <div className="call-content">
                 <h2>Ready to Elevate Your Business with TechWave Solutions?</h2>
                 <p>Transform your operations with our innovative IT services tailored to meet your unique needs. Whether you need custom software development, cybersecurity, or IT consulting, our expert team is here to help you succeed.</p>
