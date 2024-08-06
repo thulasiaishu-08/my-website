@@ -15,15 +15,15 @@ function Footer(){
                             <img src={Logo}/>
                             <p>Empowering businesses with innovative IT solutions, TechWave Solutions drives success through technology and expertise.</p>
                             <div className="icons">
-                                <a href="#"><FontAwesomeIcon icon={faSquareFacebook} /></a>
-                                <a href="#"><FontAwesomeIcon icon={faSquareInstagram} /></a>
-                                <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-                                <a href="#"><FontAwesomeIcon icon={faSquareTwitter} /></a>
+                                <a href="#"><FontAwesomeIcon className="fb" icon={faSquareFacebook} /></a>
+                                <a href="#"><FontAwesomeIcon className="fb" icon={faSquareInstagram} /></a>
+                                <a href="#"><FontAwesomeIcon className="fb" icon={faLinkedin} /></a>
+                                <a href="#"><FontAwesomeIcon className="fb" icon={faSquareTwitter} /></a>
                             </div>
                         </div>
                     </Col>
                     <Col md={3} sm={12}>
-                        <div className="links">
+                        <div className="links mar">
                             <h3>Quick Links</h3>
                             <ul>
                                 <li><a href="#">Home</a></li>
@@ -47,7 +47,7 @@ function Footer(){
                         <div className="footer-contact">
                             <h3>Reach Us</h3>
                             <ul>
-                                <p><FontAwesomeIcon icon={faLocationDot} /><li>123 Innovation Drive, Tech City.</li></p>
+                                <p><FontAwesomeIcon className="map" icon={faLocationDot} /><li>123 Innovation Drive, Tech City.</li></p>
                                 <p><FontAwesomeIcon icon={faPhone} /><li>+1 (123) 456-7890</li></p>
                                 <p><FontAwesomeIcon icon={faEnvelope} /><li>info@techwavesolutions.com</li></p>
                             </ul>
