@@ -3,6 +3,7 @@ import Logo from "../assets/img/logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faSquareFacebook, faSquareInstagram, faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function Footer(){
     return(
@@ -26,10 +27,10 @@ function Footer(){
                         <div className="links mar">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/services">Service</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
                             </ul>
                         </div>
                     </Col>
@@ -37,9 +38,9 @@ function Footer(){
                         <div className="links">
                             <h3>Important Links</h3>
                             <ul>
-                                <li><a href="#">Software Development</a></li>
-                                <li><a href="#">Cybersecurity</a></li>
-                                <li><a href="#">IT Consulting</a></li>
+                                <li><Link to="/services">Software Development</Link></li>
+                                <li><Link to="/services">Cybersecurity</Link></li>
+                                <li><Link to="/services">IT Consulting</Link></li>
                             </ul>
                         </div>
                     </Col>

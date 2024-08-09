@@ -6,6 +6,7 @@ import team3 from "../../assets/img/team3.jpg";
 import team4 from "../../assets/img/team4.jpg";
 import Header from "../Header";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 function About(){
     return(
@@ -112,7 +113,7 @@ function About(){
             <div className="call-content">
                 <h2>Ready to Elevate Your Business with TechWave Solutions?</h2>
                 <p>Transform your operations with our innovative IT services tailored to meet your unique needs. Whether you need custom software development, cybersecurity, or IT consulting, our expert team is here to help you succeed.</p>
-                <button>Get Started</button>
+                <button><Link to="/contact">Get Started</Link></button>
             </div>
         </section>
 

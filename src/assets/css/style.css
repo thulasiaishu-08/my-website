@@ -98,8 +98,15 @@ body{
     justify-content: center;
     align-items: center;
 }
+.banner-btn a{
+    color: #7501C1;
+    text-decoration: none;
+}
 .banner-btn:hover{
     background: linear-gradient(90deg, #D90CB4, #7501C1);
+    color: white;
+}
+.banner-btn a:hover{
     color: white;
 }
 .banner-btn svg{
@@ -158,6 +165,10 @@ body{
     color: #7501C1;
     font-weight: 600;
 }
+.call-content a{
+    text-decoration: none;
+    color: #7501C1;
+}
 .call-content p{
     padding: 10px 0;
 }
@@ -195,8 +206,14 @@ body{
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
-    color: white;
     font-weight: 600;
+}
+.service-card a{
+    text-decoration: none;
+    color: white;
+}
+.service-card a:hover{
+    color: #7501C1;
 }
 .service-card button:hover{
     background: white;
