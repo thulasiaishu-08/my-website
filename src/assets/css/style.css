@@ -29,15 +29,21 @@ body{
 }
 .nav-btn{
     background: linear-gradient(90deg, #D90CB4, #7501C1);
-    width: 100px;
+    width: 130px;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.nav-btn a{
+    text-decoration: none;
     color: white;
-    font-weight: 600;
 }
 .nav-btn:hover{
     background: white;
+}
+.nav-btn:hover a{
     color: #7501C1;
 }
 .navbar ul{

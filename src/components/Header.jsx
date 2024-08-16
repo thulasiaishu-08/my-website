@@ -21,7 +21,7 @@ function Header(){
                                 <li><Link to="/about">About</Link></li>
                                 <li><Link to="/services">Services</Link></li>
                                 <li><Link to="/contact">Contact</Link></li>
-                                <button className="nav-btn">Explore</button>
+                                <button className="nav-btn"><Link to="/loginsignup">Login/Signup</Link></button>
                             </ul>
                         </div>
                     </Col>

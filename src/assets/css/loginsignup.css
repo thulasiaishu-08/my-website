@@ -1,0 +1,38 @@
+.loginsignup-body{
+    background: linear-gradient(90deg, #D90CB4, #7501C1);
+}
+.login .container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.form-login{
+    background: white;
+    border-radius: 30px;
+    width: 30%;
+    padding: 60px 30px;
+}
+.form-login form input{
+    padding: 12px;
+    background: #f3f3f3;
+}
+.form-btns button{
+    width: 156px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #D90CB4, #7501C1);
+    border: none !important;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.log{
+    margin-right: 16px;
+}
+.gray{
+    background: #e3e3e3 !important;
+    color: #6a6a6a !important;
+    border: none;
+}
+.gray:hover{
+    background: #e3e3e3;
+    color: #6a6a6a;
+}
