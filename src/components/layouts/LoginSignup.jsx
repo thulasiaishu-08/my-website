@@ -2,23 +2,28 @@ import { Button, Container, Form } from "react-bootstrap";
 import "../../assets/css/loginsignup.css";
 import { useEffect, useState } from "react";
 
-function LoginSignup(){
+function LoginSignup() {
 
-    const[login,setLogin] = useState(true);
+    const [login, setLogin] = useState(true);
 
-    function showLogin(){
+    function showLogin(event) {
+        event.preventDefault();
         setLogin(true);
     }
-    function showSignup(){
+
+    function showSignup(event) {
+        event.preventDefault();
         setLogin(false);
     }
-        useEffect(() => {
-            document.body.classList.add('loginsignup-body');
-            return () => {
-                document.body.classList.remove('loginsignup-body');
-            };
-        }, []);
-    return(
+
+    useEffect(() => {
+        document.body.classList.add('loginsignup-body');
+        return () => {
+            document.body.classList.remove('loginsignup-body');
+        };
+    }, []);
+
+    return (
         <>
             <section className="login">
                 <Container>
@@ -36,8 +41,8 @@ function LoginSignup(){
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
                             <div className="form-btns">
-                                <Button  className={`log ${login ? 'button' : 'gray'}`} onClick={showLogin} type="submit">Login</Button>
-                                <Button className={`${!login ? 'button' : 'gray'}`} onClick={showSignup} type="submit">SignUp</Button>
+                                <Button className={`log ${login ? 'button' : 'gray'}`} onClick={showLogin}>Login</Button>
+                                <Button className={`${!login ? 'button' : 'gray'}`} onClick={showSignup}>SignUp</Button>
                             </div>
                         </Form>
                     </div>
@@ -46,4 +51,5 @@ function LoginSignup(){
         </>
     );
 }
+
 export default LoginSignup;
