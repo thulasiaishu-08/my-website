@@ -9,6 +9,7 @@ import team2 from "../../assets/img/team2.jpg";
 import team3 from "../../assets/img/team3.jpg";
 import team4 from "../../assets/img/team4.jpg";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 function Home(){
     return(
@@ -19,7 +20,7 @@ function Home(){
             <div className="banner-content">
                 <h1>Welcome to TechWave Solutions</h1>
                 <p>At TechWave Solutions, we deliver cutting-edge technology solutions to elevate your business operations. From web development to cybersecurity, our expert team is dedicated to driving your success through innovation and excellence.</p>
-                <button className="banner-btn"><span>Start Exploring</span> <FontAwesomeIcon icon={faRightToBracket} /> </button>
+                <button className="banner-btn"><span><Link to="/contact">Start Exploring</Link></span> <FontAwesomeIcon icon={faRightToBracket} /> </button>
             </div>
         </section>
 
@@ -48,25 +49,25 @@ function Home(){
                     <h3>Our Services</h3>
                     <h2>Comprehensive IT Services to Drive Your Business Forward</h2>
                     <Row>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12}>
                             <div className="service-card">
                                 <h3>Custom Software Development</h3>
                                 <p>We create bespoke software solutions designed to meet your unique business needs. Our end-to-end development process ensures seamless integration and optimal performance. Transform your ideas into reality with our team.</p>
-                                <button>Read More</button>
+                                <button><Link to="/services">Read More</Link></button>
                             </div>
                         </Col>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12}>
                             <div className="service-card">
                                 <h3>Cybersecurity Solutions</h3>
                                 <p>Protect your business with our advanced cybersecurity services. We offer comprehensive security assessments, threat detection, and risk management strategies. Safeguard your data and maintain your peace of mind.</p>
-                                <button>Read More</button>
+                                <button><Link to="/services">Read More</Link></button>
                             </div>
                         </Col>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12} className="pt-20">
                             <div className="service-card">
                                 <h3>IT Consulting</h3>
                                 <p>Leverage our expertise to enhance your IT infrastructure and strategy. Our consultants provide insightful guidance on technology implementation and optimization. Drive efficiency and growth with our tailored IT solutions.</p>
-                                <button>Read More</button>
+                                <button><Link to="/services">Read More</Link></button>
                             </div>
                         </Col>
                     </Row>
@@ -78,7 +79,7 @@ function Home(){
             <div className="call-content">
                 <h2>Ready to Elevate Your Business with TechWave Solutions?</h2>
                 <p>Transform your operations with our innovative IT services tailored to meet your unique needs. Whether you need custom software development, cybersecurity, or IT consulting, our expert team is here to help you succeed.</p>
-                <button>Get Started</button>
+                <button><Link to="/contact">Get Started</Link></button>
             </div>
         </section>
 
@@ -90,7 +91,7 @@ function Home(){
                 </div>
                 <div>
                     <Row>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12}>
                             <div className="team-card">
                                 <img src={team1}/>
                                 <h3>John Smith</h3>
@@ -98,7 +99,7 @@ function Home(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12}>
                             <div className="team-card">
                                 <img src={team2}/>
                                 <h3>Emily Brown</h3>
@@ -106,7 +107,7 @@ function Home(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12} className="pt-20">
                             <div className="team-card">
                                 <img src={team3}/>
                                 <h3>Sarah Lee</h3>
@@ -114,7 +115,7 @@ function Home(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12} className="pt-20">
                             <div className="team-card">
                                 <img src={team4}/>
                                 <h3>Michael Johnson</h3>

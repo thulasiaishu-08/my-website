@@ -6,6 +6,7 @@ import team3 from "../../assets/img/team3.jpg";
 import team4 from "../../assets/img/team4.jpg";
 import Header from "../Header";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 function About(){
     return(
@@ -71,7 +72,7 @@ function About(){
                 </div>
                 <div>
                     <Row>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12}>
                             <div className="team-card">
                                 <img src={team1}/>
                                 <h3>John Smith</h3>
@@ -79,7 +80,7 @@ function About(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12}>
                             <div className="team-card">
                                 <img src={team2}/>
                                 <h3>Emily Brown</h3>
@@ -87,7 +88,7 @@ function About(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12} className="pt-20">
                             <div className="team-card">
                                 <img src={team3}/>
                                 <h3>Sarah Lee</h3>
@@ -95,7 +96,7 @@ function About(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12} className="pt-20">
                             <div className="team-card">
                                 <img src={team4}/>
                                 <h3>Michael Johnson</h3>
@@ -112,7 +113,7 @@ function About(){
             <div className="call-content">
                 <h2>Ready to Elevate Your Business with TechWave Solutions?</h2>
                 <p>Transform your operations with our innovative IT services tailored to meet your unique needs. Whether you need custom software development, cybersecurity, or IT consulting, our expert team is here to help you succeed.</p>
-                <button>Get Started</button>
+                <button><Link to="/contact">Get Started</Link></button>
             </div>
         </section>
 
