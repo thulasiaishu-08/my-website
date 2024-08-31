@@ -72,7 +72,7 @@ function About(){
                 </div>
                 <div>
                     <Row>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12}>
                             <div className="team-card">
                                 <img src={team1}/>
                                 <h3>John Smith</h3>
@@ -80,7 +80,7 @@ function About(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12}>
                             <div className="team-card">
                                 <img src={team2}/>
                                 <h3>Emily Brown</h3>
@@ -88,7 +88,7 @@ function About(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12} className="pt-20">
                             <div className="team-card">
                                 <img src={team3}/>
                                 <h3>Sarah Lee</h3>
@@ -96,7 +96,7 @@ function About(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12} className="pt-20">
                             <div className="team-card">
                                 <img src={team4}/>
                                 <h3>Michael Johnson</h3>

@@ -23,7 +23,7 @@ function Services(){
                     <h3>Our Services</h3>
                     <h2>Comprehensive IT Services to Drive Your Business Forward</h2>
                     <Row>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12}>
                             <div className="service-card padding">
                                 <img src={software}/>
                                 <div className="content">
@@ -32,7 +32,7 @@ function Services(){
                                 </div>
                             </div>
                         </Col>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12}>
                             <div className="service-card padding">
                                 <img src={cyber}/>
                                 <div className="content">
@@ -41,7 +41,7 @@ function Services(){
                                 </div>
                             </div>
                         </Col>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12} className="pt-20">
                             <div className="service-card padding">
                                 <img src={consultant}/>
                                 <div className="content">

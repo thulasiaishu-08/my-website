@@ -11,7 +11,7 @@ function Footer(){
         <section className="footer-bg">
             <Container>
                 <Row>
-                    <Col md={3} sm={12}>
+                    <Col lg={3} md={6} sm={12}>
                         <div className="logo-width">
                             <img src={Logo}/>
                             <p>Empowering businesses with innovative IT solutions, TechWave Solutions drives success through technology and expertise.</p>
@@ -23,7 +23,7 @@ function Footer(){
                             </div>
                         </div>
                     </Col>
-                    <Col md={3} sm={12}>
+                    <Col lg={3} md={6} sm={12}>
                         <div className="links mar">
                             <h3>Quick Links</h3>
                             <ul>
@@ -34,7 +34,7 @@ function Footer(){
                             </ul>
                         </div>
                     </Col>
-                    <Col md={3} sm={12}>
+                    <Col lg={3} md={6} sm={12} className="pt-35">
                         <div className="links">
                             <h3>Important Links</h3>
                             <ul>
@@ -44,19 +44,20 @@ function Footer(){
                             </ul>
                         </div>
                     </Col>
-                    <Col md={3} sm={12}>
+                    <Col lg={3} md={6} sm={12} className="pt-35">
                         <div className="footer-contact">
                             <h3>Reach Us</h3>
                             <ul>
                                 <p><FontAwesomeIcon className="map" icon={faLocationDot} /><li>123 Innovation Drive, Tech City.</li></p>
                                 <p><FontAwesomeIcon icon={faPhone} /><li>+1 (123) 456-7890</li></p>
-                                <p><FontAwesomeIcon icon={faEnvelope} /><li>info@techwavesolutions.com</li></p>
+                                <p><FontAwesomeIcon icon={faEnvelope} /><li>info@techwaves.com</li></p>
                             </ul>
                         </div>
                     </Col>
                 </Row>
             </Container>
         </section>
+        <div><p className="copy">&copy; 2024 Techwave Solutions. All rights reserved.</p></div>
         </>
     );
 }

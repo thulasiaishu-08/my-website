@@ -481,3 +481,23 @@ body{
     width: 100%;
     height: 500px;
 }
+.copy{
+    margin: 0;
+    text-align: center;
+    background: #222121;
+    padding: 8px 0;
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+    cursor: pointer;
+}
+.mob-nav{
+    display: none;
+}
+.mob-nav .dropdown-toggle::after{
+    display: none;
+}
+.mob-nav button{
+    background: linear-gradient(#D90CB4, #7501C1);
+    border: none;
+}

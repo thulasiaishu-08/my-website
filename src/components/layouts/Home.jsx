@@ -49,21 +49,21 @@ function Home(){
                     <h3>Our Services</h3>
                     <h2>Comprehensive IT Services to Drive Your Business Forward</h2>
                     <Row>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12}>
                             <div className="service-card">
                                 <h3>Custom Software Development</h3>
                                 <p>We create bespoke software solutions designed to meet your unique business needs. Our end-to-end development process ensures seamless integration and optimal performance. Transform your ideas into reality with our team.</p>
                                 <button><Link to="/services">Read More</Link></button>
                             </div>
                         </Col>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12}>
                             <div className="service-card">
                                 <h3>Cybersecurity Solutions</h3>
                                 <p>Protect your business with our advanced cybersecurity services. We offer comprehensive security assessments, threat detection, and risk management strategies. Safeguard your data and maintain your peace of mind.</p>
                                 <button><Link to="/services">Read More</Link></button>
                             </div>
                         </Col>
-                        <Col md={4} sm={12}>
+                        <Col lg={4} md={6} sm={12} className="pt-20">
                             <div className="service-card">
                                 <h3>IT Consulting</h3>
                                 <p>Leverage our expertise to enhance your IT infrastructure and strategy. Our consultants provide insightful guidance on technology implementation and optimization. Drive efficiency and growth with our tailored IT solutions.</p>
@@ -91,7 +91,7 @@ function Home(){
                 </div>
                 <div>
                     <Row>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12}>
                             <div className="team-card">
                                 <img src={team1}/>
                                 <h3>John Smith</h3>
@@ -99,7 +99,7 @@ function Home(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12}>
                             <div className="team-card">
                                 <img src={team2}/>
                                 <h3>Emily Brown</h3>
@@ -107,7 +107,7 @@ function Home(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12} className="pt-20">
                             <div className="team-card">
                                 <img src={team3}/>
                                 <h3>Sarah Lee</h3>
@@ -115,7 +115,7 @@ function Home(){
                                 <p>John brings over 20 years of experience in the IT industry</p>
                             </div>
                         </Col>
-                        <Col md={3}>
+                        <Col lg={3} md={6} sm={12} className="pt-20">
                             <div className="team-card">
                                 <img src={team4}/>
                                 <h3>Michael Johnson</h3>

@@ -1,6 +1,6 @@
 import { Button, Container, Form } from "react-bootstrap";
-import "../../assets/css/loginsignup.css";
 import { useEffect, useState } from "react";
+import "../../assets/css/loginsignup.css";
 
 function LoginSignup() {
 

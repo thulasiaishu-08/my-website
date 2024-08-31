@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1280px){
+    .form-login{
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .service .row{
+        justify-content: center;
+    }
+    .pt-20{
+        padding-top: 20px;
+    }
+    .pt-35{
+        padding-top: 35px;
+    }
+    .form-login{
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .pt-35{
+        padding-top: 35px;
+    }
+    .banner-content p {
+        padding: 10px 30px;
+    }
+    .banner{
+        height: 600px;
+    }
+    .service .row{
+        justify-content: center;
+    }
+    .pt-20{
+        padding-top: 20px;
+    }
+    .call-action{
+        padding: 100px 20px;
+    }
+    .form-login{
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .banner-content p{
+        padding: 0 0 50px 0;
+    }
+    .banner {
+        margin: -150px 0 0 0;
+        border-radius: 0;
+        height: auto;
+    }
+    .banner-content {
+        padding-top: 43%;
+    }
+    .banner-content h1 {
+        font-size: 35px;
+    }
+    .banner-content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-content p {
+        line-height: 25px;
+        margin: 0;
+    }
+    .about-content {
+        padding: 50px 20px;
+    }
+    .service-section {
+        margin: 50px 0 0 0;
+    }
+    .service-card{
+        margin-bottom: 20px;
+        padding: 23px;
+    }
+    .call-action{
+        margin: 50px 0;
+        padding: 50px 20px;
+    }
+    .gap{
+        margin: 0;
+    }
+    .team-card{
+        margin-bottom: 20px;
+    }
+    .team{
+        margin-bottom: 50px;
+    }
+    .footer-bg{
+        padding: 50px 0;
+    }
+    .footer-bg .mar{
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .pagebg{
+        margin: -150px 0 0 0;
+        padding: 200px 0 140px 0;
+    }
+    .margin{
+        margin: 50px 0;
+    }
+    .absec{
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+    .values{
+        margin-left: 0;
+    }
+    .content {
+        padding: 20px 0 0 0;
+    }
+    .contact {
+        padding: 50px 0;
+        margin-left: 0;
+    }
+    .contact-content {
+        margin-left: 0;
+        padding-top: 35px;
+    }
+    .form-btns button {
+        width: 100% !important;
+    }
+    .form-login {
+        width: 100% !important;
+    }
+    .mob-nav{
+        display: table;
+        margin: 0 0 0 auto;
+    }
+    .navbar{
+        display: none;
+    }
+    .custom{
+        width: 50%;
+    }
+}
