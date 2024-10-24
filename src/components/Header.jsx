@@ -3,9 +3,14 @@ import Logo from "../assets/img/logo.png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 
 function Header(){
+    const[isopen,setIsopen] = useState(false);
+    function handleDropdown(){
+        setIsopen(!isopen);
+    }
     return(
         <>
         <section className="head">
@@ -21,7 +26,16 @@ function Header(){
                             <ul>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About</Link></li>
-                                <li><Link to="/services">Services</Link></li>
+                                <li onClick={handleDropdown}><Link to="/services">Services</Link></li>
+                                {isopen && (
+                                <div>
+                                    <ul>
+                                        <li>serve</li>
+                                        <li>serve</li>
+                                        <li>serve</li>
+                                    </ul>
+                                </div>
+                                )}
                                 <li><Link to="/contact">Contact</Link></li>
                                 <button className="nav-btn"><Link to="/loginsignup">Login/Signup</Link></button>
                             </ul>
